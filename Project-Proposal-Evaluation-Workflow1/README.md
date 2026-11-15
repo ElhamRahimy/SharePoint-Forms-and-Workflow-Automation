@@ -266,7 +266,8 @@ I was responsible for the business analysis, solution design, and technical impl
 
 Customized BPC PowerForms interface enabling employees to submit project ideas, objectives, technical justifications, implementation details, and supporting documentation.
 
-![Project Proposal Submission](Project-Proposal-Submission.png)
+<img width="1485" height="547" alt="Project Proposal Submission Form" src="https://github.com/user-attachments/assets/a3c3918e-3e18-44cf-94a4-c98bbd5f5b1c" />
+
 
 ### 2. Project Evaluation & Approval Workflow
 
@@ -274,7 +275,8 @@ Multi-stage workflow interface showing project information, MTO and cost estimat
 
 The lower section of the form contains the integrated workflow history, allowing users to review previous stages, responsible users, action dates, and recorded outcomes.
 
-![Project Evaluation Workflow](Project-Evaluation-Workflow.png)
+<img width="1533" height="1917" alt="Project Evaluation   Approval Workflow" src="https://github.com/user-attachments/assets/bc3be785-d316-4beb-ae97-2e36e53c83ef" />
+
 
 ## Language & Confidentiality
 
