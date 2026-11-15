@@ -1,69 +1,77 @@
 # Enterprise Document Management & Access Control System
 
-**Microsoft SharePoint | BPC PowerForms | Nintex Workflow | Document Management | Access Control**
+**Microsoft SharePoint | BPC PowerForms | Nintex Workflow | Document Lifecycle Management | Access Control**
 
 ## Project Overview
 
-Designed and implemented an enterprise document management solution using **Microsoft SharePoint, BPC PowerForms, and Nintex Workflow**.
+Designed and implemented an enterprise document management and access control solution using **Microsoft SharePoint, BPC PowerForms, and Nintex Workflow**.
 
-The system supported approximately **200 users** and provided a centralized platform for registering, uploading, classifying, searching, and managing organizational documents.
+The system supported approximately **200 users** and provided a centralized platform for registering, uploading, classifying, searching, maintaining, and controlling access to organizational documents.
 
-Designated representatives from different departments were responsible for maintaining their departmental documents, while other employees could search for and access documents based on their assigned permissions.
+Designated representatives from different departments were responsible for registering and maintaining their departmental documents, managing document information, and deactivating obsolete documents. Other employees could search for and access documents according to their assigned permissions.
 
-The solution combined customized electronic forms with automated access management workflows to support secure and structured document sharing across the organization.
+The solution combined customized electronic forms, workflow-based access management, and document lifecycle controls to support secure, structured, and reliable document sharing across the organization.
 
 ## Key Features
 
 ### 1. Document Registration & Upload
 
-Developed customized document registration and upload forms using **BPC PowerForms**.
+Designed and developed customized document registration and upload forms using **BPC PowerForms**, integrated with Microsoft SharePoint.
 
-Key capabilities included:
+**Key Capabilities:**
 
-- Creating and registering new documents.
-- Uploading organizational documents to SharePoint.
-- Assigning documents to companies, departments, and process groups.
-- Classifying documents by type and organizational scope.
+- Registering and uploading new organizational documents.
+- Assigning documents to companies, departments, and business process groups.
+- Classifying documents by type, organizational scope, and applicability.
 - Recording document titles, reference codes, and revision numbers.
-- Managing document status and validity dates.
-- Recording approval dates and document ownership information.
-- Managing document download availability.
+- Managing document status, approval dates, and validity periods.
+- Identifying document owners and responsible process stakeholders.
+- Specifying document download availability.
 - Maintaining references to related electronic forms.
+
+These capabilities enabled departmental representatives to manage documents using consistent classification and metadata structures.
 
 ### 2. Document Search & Retrieval
 
-Developed a customized document search interface using **BPC PowerForms**, allowing authorized employees to locate documents through multiple search criteria.
+Developed a customized document search and management interface using **BPC PowerForms**, enabling employees to locate organizational documents through multiple search criteria.
 
-Search capabilities included:
+**Search and Filtering Capabilities:**
 
 - Document title and keyword search.
 - Organizational department or business unit.
 - Document type and classification.
 - Document reference codes.
 - Document status.
-- Document applicability and scope.
+- Document applicability and organizational scope.
 
-Search results were displayed in a structured, paginated table for efficient document retrieval.
+Search results were displayed in a structured, paginated table containing document information and status indicators.
 
-### Document Obsolescence & Version Validity Management
+Document visibility was controlled according to user permissions, allowing employees to access only documents available to them.
 
-Developed a document deactivation feature within the customized search and management interface, enabling authorized departmental representatives to identify and deactivate obsolete or superseded documents.
+### 3. Document Obsolescence & Version Validity Management
+
+Designed and implemented a document deactivation feature within the customized document search and management interface.
+
+Authorized departmental representatives could identify and deactivate outdated, obsolete, or superseded documents to prevent regular employees from accessing invalid documentation.
 
 **Key Capabilities:**
 
-- Authorized departmental representatives could deactivate outdated or superseded documents.
-- Deactivated documents were excluded from search results and document access for regular users.
-- The system helped employees access the latest valid versions of organizational documents.
-- Document status management supported controlled document lifecycle administration.
-- Reduced the risk of employees referring to outdated procedures, instructions, or organizational documentation.
+- Authorized departmental representatives could deactivate obsolete or superseded documents.
+- Deactivated documents were excluded from regular users' document search results.
+- Regular employees were prevented from accessing deactivated documents through the system.
+- Document status information supported the distinction between active and inactive documents.
+- Departmental representatives could maintain document validity and revision information.
+- The process helped employees locate current, valid organizational documentation.
 
 **Business Value:**
 
-This functionality improved document reliability and information governance by helping ensure that employees worked with current, valid documentation rather than obsolete versions.
+This functionality improved document reliability and information governance by reducing the risk of employees using outdated procedures, instructions, forms, or other organizational documents.
 
-### 3. Automated Document Access Management
+It also supported document lifecycle management by allowing departments to control the availability of their documentation as revisions and updates occurred.
 
-Implemented document access management processes using **Nintex Workflow**, integrated with the SharePoint environment.
+### 4. Automated Document Access Management
+
+Designed and implemented document access management processes using **Nintex Workflow**, integrated with Microsoft SharePoint.
 
 The solution supported:
 
@@ -73,18 +81,26 @@ The solution supported:
 - Workflow-driven management of document permissions.
 - Coordination between document registration and access management.
 
-This ensured that employees could access documents according to their assigned permissions rather than having unrestricted access to the entire document repository.
+Departmental representatives could manage the intended access to their documents, while Nintex Workflow supported the implementation of the corresponding access permissions.
 
-### 4. Document Lifecycle Management
+This approach helped ensure that employees could access relevant organizational documents without unrestricted visibility into the entire document repository.
 
-Implemented document administration capabilities to support:
+### 5. Document Lifecycle Management
+
+Implemented document administration capabilities covering multiple stages of the document lifecycle.
+
+**Supported Activities:**
 
 - Document registration and classification.
+- Document metadata management.
 - Revision identification and tracking.
-- Active and inactive document status.
+- Active and inactive document status management.
 - Approval and validity date management.
 - Document search and retrieval.
-- Document deactivation and status updates.
+- Deactivation of obsolete or superseded documents.
+- Maintenance of document information by authorized departmental representatives.
+
+These features supported more consistent management of organizational documents throughout their operational lifecycle.
 
 ## Business Process
 
@@ -92,77 +108,63 @@ Implemented document administration capabilities to support:
 
 An authorized departmental representative registers a document through a customized BPC PowerForms interface.
 
+The representative enters the required document information, including classification, reference codes, revision details, and organizational metadata.
+
 **Step 2 — Document Upload & Classification**
 
-The document is uploaded to SharePoint and classified using predefined organizational and document metadata.
+The document is uploaded to SharePoint and classified according to predefined organizational units, process groups, document types, and applicability criteria.
 
-**Step 3 — Access Management**
+**Step 3 — Document Access Management**
 
-Nintex Workflow manages the document access process according to the defined permission requirements.
+The departmental representative defines the intended document access.
+
+Nintex Workflow manages the corresponding permission process within the SharePoint environment.
 
 **Step 4 — Document Search & Retrieval**
 
-Employees search for documents using the customized search form and access the documents available to them based on their permissions.
+Employees search for organizational documents using the customized BPC PowerForms search interface.
 
-**Step 5 — Document Maintenance**
+Search results and document access are restricted according to the user's assigned permissions and the document's active status.
 
-Authorized representatives maintain document metadata, revision information, validity details, and document status.
+**Step 5 — Document Maintenance & Revision Management**
+
+Authorized departmental representatives maintain document metadata, revision information, validity dates, and document status as documentation changes.
+
+**Step 6 — Obsolete Document Deactivation**
+
+When a document becomes outdated or is replaced by a newer version, an authorized departmental representative can deactivate it through the document management interface.
+
+Deactivated documents are no longer displayed or accessible to regular users through the system, helping ensure that employees work with current and valid documentation.
 
 ## My Responsibilities
 
-I was responsible for the design and technical implementation of the solution, including:
+I was responsible for the business analysis, design, and technical implementation of the solution, including:
 
-- Business requirements analysis and process design.
-- Designing and developing customized forms using **BPC PowerForms**.
+- Analyzing organizational requirements and designing the document management process.
+- Designing and developing customized electronic forms using **BPC PowerForms**.
 - Configuring SharePoint document management structures.
-- Developing document registration, upload, and search interfaces.
+- Developing document registration, upload, search, and administration interfaces.
 - Designing and implementing document access management processes using **Nintex Workflow**.
-- Implementing document classification, metadata management, and status administration.
-- Integrating electronic forms with SharePoint-based document management and workflow processes.
+- Implementing permission-based document access and visibility controls.
+- Developing document classification and metadata management functionality.
+- Implementing document status and lifecycle management features.
+- Designing and implementing document deactivation functionality to prevent regular users from accessing obsolete documents.
+- Integrating BPC PowerForms interfaces with SharePoint document management and Nintex Workflow processes.
 
-## Business Value
+## Business Value & Organizational Impact
 
-- Centralized organizational document management.
-- Supported approximately **200 users**.
-- Improved document accessibility through structured search and filtering.
-- Strengthened document security through permission-based access.
-- Reduced manual effort in document administration and access management.
-- Improved document classification, traceability, and information organization.
-- Supported digital transformation of departmental document management processes.
+- **Centralized Document Management:** Established a structured environment for managing organizational documents across different departments.
+- **Enterprise User Support:** Supported approximately **200 users** with different document management responsibilities and access permissions.
+- **Improved Document Accessibility:** Enabled employees to find relevant documentation through advanced search and filtering capabilities.
+- **Controlled Information Access:** Strengthened document visibility and access management through SharePoint permissions and Nintex Workflow.
+- **Document Validity & Reliability:** Reduced the risk of using obsolete documentation by allowing authorized representatives to deactivate outdated documents.
+- **Improved Information Governance:** Supported consistent document classification, metadata management, and lifecycle administration.
+- **Reduced Manual Administration:** Streamlined document registration, retrieval, maintenance, and access management.
+- **Business Process Digitalization:** Replaced fragmented document handling activities with centralized electronic forms and workflow-based processes.
 
 ## Tools & Technologies
 
 | Technology | Application |
 |---|---|
-| Microsoft SharePoint | Document storage, management, and enterprise collaboration |
-| BPC PowerForms | Customized document registration, upload, search, and administration forms |
-| Nintex Workflow | Automated document access management processes |
-| SharePoint Permissions | Role-based and permission-controlled document access |
-| Business Process Analysis | Requirements analysis and process design |
-| Document Management | Metadata, classification, status, and document lifecycle management |
-
-## Screenshots
-
-### Document Registration & Upload Form
-
-Customized BPC PowerForms interface for registering, classifying, uploading, and maintaining organizational documents.
-
-<img width="1271" height="539" alt="Document-Upload" src="https://github.com/user-attachments/assets/483029a2-c292-4024-a504-56eca9d5698e" />
-
-### Document Search & Management Interface
-
-Customized BPC PowerForms interface for searching organizational documents using multiple filters and managing document status.
-
-<img width="1505" height="675" alt="Document-Search" src="https://github.com/user-attachments/assets/8334a9b3-7885-42b6-b165-15e2c6b285fa" />
-
-## Language & Confidentiality
-
-The original forms were developed in **Persian (Farsi)** for an enterprise business environment.
-
-English descriptions are provided to explain the system's functionality, workflow logic, and business purpose to international audiences.
-
-Screenshots are presented for portfolio demonstration purposes. Confidential organizational information should be anonymized before public publication.
-
----
-
-*An enterprise business process automation project demonstrating SharePoint development, BPC PowerForms customization, Nintex Workflow implementation, document management, and permission-based information access.*
+| Microsoft SharePoint | Enterprise document storage, management, and collaboration |
+| BPC PowerForms | Customized document registration, upload, search, and administration
