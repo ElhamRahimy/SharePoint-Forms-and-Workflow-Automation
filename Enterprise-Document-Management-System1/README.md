@@ -1,6 +1,6 @@
 # Enterprise Document Management & Access Control System
 
-**Microsoft SharePoint | BPC PowerForms | Nintex Workflow | Document Lifecycle Management | Access Control**
+**Microsoft SharePoint | BPC PowerForms | JavaScript | Nintex Workflow | Document Lifecycle Management | Access Control**
 
 ## Project Overview
 
@@ -150,6 +150,8 @@ I was responsible for the business analysis, design, and technical implementatio
 - Implementing document status and lifecycle management features.
 - Designing and implementing document deactivation functionality to prevent regular users from accessing obsolete documents.
 - Integrating BPC PowerForms interfaces with SharePoint document management and Nintex Workflow processes.
+- Developed and customized SharePoint-based electronic forms using **BPC PowerForms and JavaScript**.
+- Used JavaScript to support custom form functionality and enhance user interactions within the document management system.
 
 ## Business Value & Organizational Impact
 
@@ -173,6 +175,7 @@ I was responsible for the business analysis, design, and technical implementatio
 | Document Lifecycle Management | Document status, revision information, validity management, and obsolete document deactivation |
 | Business Process Analysis | Requirements analysis, process design, and business process digitalization |
 | Document Management System (DMS) | Document classification, metadata management, search, and controlled information access |
+| JavaScript | Custom form development, client-side functionality, and user interface enhancements |
 
 ## Screenshots
 
