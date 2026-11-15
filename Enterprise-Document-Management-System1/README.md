@@ -131,13 +131,13 @@ I was responsible for the design and technical implementation of the solution, i
 
 Customized BPC PowerForms interface for registering, classifying, uploading, and maintaining organizational documents.
 
-![Document Upload Form](Document-Upload.jpg)
+<img width="1271" height="539" alt="Document-Upload" src="https://github.com/user-attachments/assets/483029a2-c292-4024-a504-56eca9d5698e" />
 
 ### Document Search & Management Interface
 
 Customized BPC PowerForms interface for searching organizational documents using multiple filters and managing document status.
 
-![Document Search Interface](Document-Search.jpg)
+<img width="1505" height="675" alt="Document-Search" src="https://github.com/user-attachments/assets/8334a9b3-7885-42b6-b165-15e2c6b285fa" />
 
 ## Language & Confidentiality
 
