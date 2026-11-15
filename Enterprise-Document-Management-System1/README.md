@@ -45,6 +45,22 @@ Search capabilities included:
 
 Search results were displayed in a structured, paginated table for efficient document retrieval.
 
+### Document Obsolescence & Version Validity Management
+
+Developed a document deactivation feature within the customized search and management interface, enabling authorized departmental representatives to identify and deactivate obsolete or superseded documents.
+
+**Key Capabilities:**
+
+- Authorized departmental representatives could deactivate outdated or superseded documents.
+- Deactivated documents were excluded from search results and document access for regular users.
+- The system helped employees access the latest valid versions of organizational documents.
+- Document status management supported controlled document lifecycle administration.
+- Reduced the risk of employees referring to outdated procedures, instructions, or organizational documentation.
+
+**Business Value:**
+
+This functionality improved document reliability and information governance by helping ensure that employees worked with current, valid documentation rather than obsolete versions.
+
 ### 3. Automated Document Access Management
 
 Implemented document access management processes using **Nintex Workflow**, integrated with the SharePoint environment.
