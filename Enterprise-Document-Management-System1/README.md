@@ -167,4 +167,41 @@ I was responsible for the business analysis, design, and technical implementatio
 | Technology | Application |
 |---|---|
 | Microsoft SharePoint | Enterprise document storage, management, and collaboration |
-| BPC PowerForms | Customized document registration, upload, search, and administration
+| BPC PowerForms | Customized document registration, upload, search, and administration interfaces |
+| Nintex Workflow | Automated document access management and permission processes |
+| SharePoint Permissions | Permission-based document visibility and access control |
+| Document Lifecycle Management | Document status, revision information, validity management, and obsolete document deactivation |
+| Business Process Analysis | Requirements analysis, process design, and business process digitalization |
+| Document Management System (DMS) | Document classification, metadata management, search, and controlled information access |
+
+## Screenshots
+
+### Document Registration & Upload Form
+
+Customized BPC PowerForms interface for registering, classifying, uploading, and maintaining organizational documents.
+
+The form includes document metadata, organizational classification, reference codes, revision information, document status, and validity details.
+
+<img width="1271" height="539" alt="Document-Upload" src="https://github.com/user-attachments/assets/483029a2-c292-4024-a504-56eca9d5698e" />
+
+### Document Search & Management Interface
+
+Customized BPC PowerForms interface for searching and managing organizational documents.
+
+The interface includes advanced filtering, document status information, paginated search results, and a document deactivation feature for authorized departmental representatives.
+
+This functionality helps prevent obsolete documents from appearing in regular users' search results.
+
+<img width="1505" height="675" alt="Document-Search" src="https://github.com/user-attachments/assets/8334a9b3-7885-42b6-b165-15e2c6b285fa" />
+
+## Language & Confidentiality
+
+The original forms were developed in **Persian (Farsi)** for an enterprise business environment.
+
+English descriptions are provided to explain the system's functionality, technical implementation, workflow logic, and business purpose to international audiences.
+
+The screenshots demonstrate the original application interfaces. Confidential organizational information should be anonymized and publication permissions verified before public sharing.
+
+---
+
+*An enterprise business process automation solution demonstrating SharePoint development, BPC PowerForms customization, Nintex Workflow implementation, document lifecycle management, and permission-based information access.*
