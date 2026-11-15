@@ -1,72 +1,89 @@
-
-# Project Proposal Evaluation & Approval Workflow
+# Enterprise Project Proposal Evaluation & Approval Workflow
 
 **Microsoft SharePoint | BPC PowerForms | Nintex Workflow | JavaScript | Business Process Automation | Project Governance**
 
 ## Project Overview
 
-Designed and implemented an enterprise project proposal submission, evaluation, and approval solution for a company operating in the **food industry**.
+Designed and implemented an enterprise-level project proposal submission, evaluation, and approval system for an organization operating in the **food industry**.
 
-The solution enabled employees across the organization to submit project ideas, operational improvement initiatives, and technical proposals through a centralized electronic form.
+The solution enabled employees to submit project ideas, technical improvement initiatives, and operational development proposals through customized electronic forms.
 
-Each proposal followed a structured, multi-stage evaluation process covering technical feasibility, expected benefits, operational impact, implementation requirements, estimated costs, budget considerations, and resource needs.
+Each proposal was evaluated through a complex, cross-functional workflow comprising approximately **17 stages**, involving multiple organizational departments, management levels, and decision-making authorities.
 
-Following the evaluation stages, proposals were submitted to a designated review committee for assessment and a final decision on whether they should proceed to implementation.
+The evaluation process covered technical feasibility, operational requirements, expected benefits, procurement considerations, material and equipment requirements, estimated costs, budget considerations, and implementation resources.
 
-The system combined customized electronic forms, automated workflows, financial evaluation, and decision tracking to digitize the complete project proposal lifecycle.
+The workflow involved stakeholders from the proposing department, Project Management Office (PMO), executive management, domestic procurement and purchasing, international procurement, Budget Committee, technical teams, civil engineering teams, and other relevant departments.
+
+Following the required evaluations, proposals were reviewed by the designated decision-making committee to determine whether they should proceed to implementation.
+
+The solution combined **BPC PowerForms, JavaScript, Nintex Workflow, and Microsoft SharePoint** to digitize and coordinate the project proposal lifecycle, from initial submission to final decision-making.
 
 ## Business Objectives
 
 The solution was designed to:
 
-- Provide employees with a structured channel for submitting project ideas and improvement proposals.
-- Standardize the information required for evaluating potential projects.
-- Support technical, financial, and operational feasibility assessments.
-- Improve coordination between proposal submitters, technical reviewers, management, and the review committee.
-- Increase transparency throughout the proposal evaluation and approval process.
-- Support informed decision-making before committing organizational resources.
-- Maintain a centralized history of project proposals, evaluations, and decisions.
+- Provide employees with a centralized channel for submitting project ideas and improvement proposals.
+- Standardize project proposal information and evaluation requirements.
+- Digitize a complex, multi-department evaluation and approval process.
+- Support technical, operational, financial, and procurement-related assessments.
+- Improve coordination between departments and decision-making authorities.
+- Enable structured cost estimation and resource evaluation.
+- Improve transparency and accountability throughout the workflow.
+- Maintain a traceable history of proposal evaluations, recommendations, and decisions.
+- Support informed project investment and implementation decisions.
 
 ## Key Features
 
 ### 1. Project Proposal Registration
 
-Designed and developed a customized electronic form using **BPC PowerForms**, integrated with Microsoft SharePoint.
+Designed and developed customized electronic forms using **BPC PowerForms**, integrated with Microsoft SharePoint.
 
-The form enabled employees to register new project proposals and provide the information required for subsequent evaluation.
+Employees could register project ideas and provide the information required for subsequent evaluation.
 
 **Key Capabilities:**
 
 - Recording proposal identification numbers and submission dates.
 - Identifying the requester and proposing department.
 - Selecting project categories and organizational units.
-- Entering the proposed project title and implementation location.
+- Entering project titles and proposed implementation locations.
 - Specifying estimated implementation duration.
 - Defining project objectives and expected improvements.
 - Providing technical descriptions and management justifications.
 - Identifying relevant functional areas, including Quality Assurance (QA), Health, Safety & Environment (HSE), and other departments.
 - Uploading supporting documentation and supplementary files.
 
-This standardized the initial proposal information and supported more consistent evaluations.
+This standardized proposal submissions and provided reviewers with structured information for evaluation.
 
-### 2. Multi-Stage Proposal Evaluation & Approval
+### 2. Complex 17-Stage Cross-Functional Evaluation & Approval Workflow
 
-Designed and implemented a structured evaluation and approval process using **Nintex Workflow**.
+Designed and implemented a complex enterprise workflow comprising approximately **17 evaluation and approval stages** using **Nintex Workflow**.
 
-The workflow coordinated proposal reviews across relevant organizational roles and supported progression through multiple evaluation stages.
+The process coordinated proposal reviews across multiple organizational departments, functional specialists, management levels, and decision-making authorities.
+
+**Participating Departments & Stakeholders:**
+
+- Proposing Department
+- Project Management Office (PMO)
+- Chief Executive Officer (CEO)
+- Domestic Procurement & Purchasing
+- International Procurement
+- Budget Committee
+- Technical Teams
+- Civil Engineering Teams
+- Other relevant organizational departments and reviewers
 
 **Key Capabilities:**
 
-- Initial proposal submission and registration.
-- Review of proposal information and requirements.
-- Technical and operational evaluation.
-- Assessment of implementation resources and expected benefits.
-- Financial and budget-related evaluation.
-- Management review and recommendations.
-- Review by the designated project evaluation committee.
-- Recording the final decision regarding project implementation.
+- Multi-stage proposal routing across organizational departments.
+- Structured technical, operational, financial, and procurement-related evaluations.
+- Coordination between different departments and management levels.
+- Recording review results, recommendations, and approval decisions.
+- Tracking the current workflow stage and responsible reviewers.
+- Supporting the collection of additional information and supporting documents during evaluation.
+- Maintaining a detailed history of previous workflow stages and decisions.
+- Supporting committee-level review and final implementation decisions.
 
-The workflow supported structured coordination between employees, reviewers, managers, and decision-makers.
+The workflow provided a structured mechanism for coordinating complex project evaluations before committing organizational resources.
 
 ### 3. Material Take-Off (MTO) & Cost Estimation
 
@@ -89,7 +106,7 @@ The MTO and cost estimation section provided reviewers with structured informati
 
 ### 4. Technical, Financial & Operational Assessment
 
-The evaluation process supported the review of proposals from multiple business perspectives.
+The evaluation process supported project proposal assessment from multiple business perspectives.
 
 **Evaluation Areas:**
 
@@ -98,10 +115,11 @@ The evaluation process supported the review of proposals from multiple business 
 - Resource and equipment requirements.
 - Estimated implementation costs.
 - Budget considerations.
+- Domestic and international procurement requirements.
 - Potential business impact.
 - Management recommendations and review outcomes.
 
-This enabled decision-makers to assess proposals using structured technical and financial information before approving implementation.
+This enabled decision-makers to consider technical, financial, operational, and organizational factors before making implementation decisions.
 
 ### 5. Supporting Documents & Attachments
 
@@ -175,47 +193,45 @@ The customized interfaces supported the different information requirements of pr
 
 ## Business Process
 
-**Step 1 — Project Idea Submission**
+The solution implemented an approximately **17-stage workflow**, involving multiple departments and decision-making authorities.
 
-An employee submits a project proposal through the customized electronic form.
+The following summarizes the main phases of the process rather than listing every individual workflow stage.
 
-The proposal includes the project objectives, technical description, expected benefits, implementation details, and supporting documents.
+**Phase 1 — Project Idea Submission**
 
-**Step 2 — Initial Review**
+An employee submitted a project proposal through the customized electronic form, including objectives, technical justification, expected benefits, implementation details, and supporting documents.
 
-The submitted proposal enters the defined workflow for review of its information, requirements, and relevance.
+**Phase 2 — Initial & PMO Review**
 
-**Step 3 — Technical & Operational Evaluation**
+The proposal entered the organizational review process, including assessment by the relevant department and PMO.
 
-Relevant reviewers assess the proposal's technical requirements, operational feasibility, expected impact, and implementation considerations.
+**Phase 3 — Technical & Operational Evaluation**
 
-**Step 4 — Resource & Cost Estimation**
+Technical specialists, civil engineering teams, and other relevant departments reviewed implementation requirements, feasibility, expected impact, and resource needs.
 
-Required materials, equipment, resources, and estimated costs are documented and evaluated.
+**Phase 4 — Procurement & Resource Assessment**
 
-The MTO section supports itemized cost estimation and resource planning.
+Domestic and international procurement functions contributed to the assessment of materials, equipment, purchasing requirements, and estimated costs.
 
-**Step 5 — Management Review**
+**Phase 5 — Budget & Financial Evaluation**
 
-The proposal undergoes management-level evaluation, including review of technical recommendations, financial considerations, and implementation requirements.
+Budget-related reviewers assessed the proposal's estimated costs, resource requirements, and financial considerations.
 
-**Step 6 — Committee Evaluation**
+**Phase 6 — Executive & Committee Review**
 
-The proposal and its supporting evaluations are submitted to the designated review committee.
+Management and the designated review committee evaluated the proposal based on the available technical, financial, operational, and organizational information.
 
-Committee members assess the proposal based on the available technical, financial, operational, and management information.
+**Phase 7 — Final Decision**
 
-**Step 7 — Final Decision**
+The designated decision-making authority determined whether the proposed project should proceed to implementation.
 
-The committee determines whether the proposed project should proceed to implementation.
+The decision was recorded within the workflow.
 
-The decision is recorded as part of the proposal evaluation process.
+**Phase 8 — Workflow History & Traceability**
 
-**Step 8 — Workflow History & Traceability**
+Throughout the process, workflow actions, review outcomes, responsible users, and timestamps were recorded.
 
-Throughout the process, workflow actions and review outcomes are recorded.
-
-The integrated workflow history enables users to review previous stages, responsible users, action timestamps, and recorded decisions.
+The integrated workflow history enabled users to review previous stages and decisions directly within the electronic form.
 
 ## My Responsibilities
 
@@ -223,9 +239,10 @@ I was responsible for the business analysis, solution design, and technical impl
 
 - Analyzing business requirements and mapping the project proposal evaluation and approval process.
 - Designing the end-to-end workflow from employee proposal submission to committee decision-making.
-- Designing and developing customized electronic forms using **BPC PowerForms**.
+- Designing and implementing an approximately **17-stage cross-functional workflow** using Nintex Workflow.
+- Developing customized electronic forms using **BPC PowerForms**.
 - Implementing form customizations and interactive functionality using **JavaScript**.
-- Designing and implementing multi-stage evaluation and approval workflows using **Nintex Workflow**.
+- Integrating workflow activities across the PMO, executive management, procurement departments, Budget Committee, technical teams, civil engineering teams, and other organizational stakeholders.
 - Configuring SharePoint-based proposal information and document attachment functionality.
 - Developing project proposal registration and technical review interfaces.
 - Implementing MTO data-entry and cost estimation functionality.
@@ -238,10 +255,11 @@ I was responsible for the business analysis, solution design, and technical impl
 ## Business Value & Organizational Impact
 
 - **Employee Innovation:** Provided employees with a formal digital channel for submitting project ideas and improvement initiatives.
-- **Standardized Project Evaluation:** Established a consistent approach to evaluating technical, financial, and operational aspects of proposed projects.
+- **Complex Workflow Digitalization:** Digitized an approximately 17-stage evaluation and approval process involving multiple organizational departments and management levels.
+- **Cross-Functional Process Integration:** Connected proposal submitters, PMO, procurement departments, technical teams, budget reviewers, executive management, and committee members within a structured workflow.
+- **Standardized Project Evaluation:** Established a consistent approach to evaluating technical, financial, operational, and procurement-related aspects of proposed projects.
 - **Improved Project Governance:** Supported structured review and decision-making before committing organizational resources.
 - **Cost & Resource Visibility:** Enabled itemized assessment of materials, equipment, estimated costs, and implementation requirements.
-- **Cross-Functional Collaboration:** Improved coordination between employees, technical reviewers, managers, and committee members.
 - **Process Transparency:** Enabled visibility into current workflow stages, previous evaluations, and recorded decisions.
 - **Workflow Traceability & Auditability:** Maintained a history of review stages, responsible users, action timestamps, and evaluation outcomes.
 - **Decision Support:** Provided decision-makers with consolidated proposal information, technical assessments, and financial considerations.
@@ -253,7 +271,7 @@ I was responsible for the business analysis, solution design, and technical impl
 |---|---|
 | Microsoft SharePoint | Enterprise platform for proposal information, forms, and supporting documents |
 | BPC PowerForms | Customized proposal registration, evaluation, MTO, and review interfaces |
-| Nintex Workflow | Multi-stage proposal evaluation, approval routing, and workflow automation |
+| Nintex Workflow | Approximately 17-stage cross-functional evaluation, approval routing, and workflow automation |
 | JavaScript | Custom form development and interactive functionality |
 | Business Process Analysis | Requirements analysis, workflow mapping, and process design |
 | Project Governance | Project proposal evaluation, management review, and committee decision-making |
@@ -266,7 +284,7 @@ I was responsible for the business analysis, solution design, and technical impl
 
 Customized BPC PowerForms interface enabling employees to submit project ideas, objectives, technical justifications, implementation details, and supporting documentation.
 
-<img width="1485" height="547" alt="Project Proposal Submission Form" src="https://github.com/user-attachments/assets/a3c3918e-3e18-44cf-94a4-c98bbd5f5b1c" />
+<img width="1485" height="547" alt="Project Proposal Submission Form" src="https://github.com/user-attachments/assets/446f5f31-ec3d-4c7c-827a-77e4b4cc5e55" />
 
 
 ### 2. Project Evaluation & Approval Workflow
@@ -275,7 +293,7 @@ Multi-stage workflow interface showing project information, MTO and cost estimat
 
 The lower section of the form contains the integrated workflow history, allowing users to review previous stages, responsible users, action dates, and recorded outcomes.
 
-<img width="1533" height="1917" alt="Project Evaluation   Approval Workflow" src="https://github.com/user-attachments/assets/bc3be785-d316-4beb-ae97-2e36e53c83ef" />
+<img width="1533" height="1917" alt="Project Evaluation   Approval Workflow" src="https://github.com/user-attachments/assets/2d48371a-7c99-4f08-9b93-0893eeba0a31" />
 
 
 ## Language & Confidentiality
@@ -288,4 +306,4 @@ The screenshots demonstrate the original application interfaces. Confidential or
 
 ---
 
-*An enterprise business process automation project demonstrating SharePoint development, BPC PowerForms customization, JavaScript, Nintex Workflow implementation, project proposal evaluation, financial and resource assessment, workflow traceability, and structured project governance.*
+*An enterprise business process automation project demonstrating SharePoint development, BPC PowerForms customization, JavaScript, complex Nintex Workflow implementation, cross-functional project proposal evaluation, financial and resource assessment, workflow traceability, and structured project governance.*
