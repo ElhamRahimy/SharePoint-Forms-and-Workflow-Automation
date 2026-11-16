@@ -185,8 +185,7 @@ Customized BPC PowerForms interface for registering, classifying, uploading, and
 
 The form includes document metadata, organizational classification, reference codes, revision information, document status, and validity details.
 
-<img width="1271" height="539" alt="Document-Upload" src="https://github.com/user-attachments/assets/483029a2-c292-4024-a504-56eca9d5698e" />
-
+////////
 ### Document Search & Management Interface
 
 Customized BPC PowerForms interface for searching and managing organizational documents.
@@ -195,8 +194,7 @@ The interface includes advanced filtering, document status information, paginate
 
 This functionality helps prevent obsolete documents from appearing in regular users' search results.
 
-<img width="1505" height="675" alt="Document-Search" src="https://github.com/user-attachments/assets/8334a9b3-7885-42b6-b165-15e2c6b285fa" />
-
+//////////////
 ## Language & Confidentiality
 
 The original forms were developed in **Persian (Farsi)** for an enterprise business environment.
